@@ -1,0 +1,228 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #d3d3d382;
+  min-height: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 12px;
+  position: relative;
+  display: flex;
+  min-height: 900px;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+.left {
+  width: 34%;
+  margin: 26px 15px;
+  /* box-shadow: 3px 3px 5px 4px #53505075; */
+  background-color: #fff;
+  max-height: 1100px;
+}
+
+.avatar {
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: inherit;
+}
+
+.jane {
+  margin: -50px 0 0 25px;
+  font-size: 27px;
+}
+
+.contact {
+  margin: 30px 20px;
+}
+
+.contact p {
+  color: #a7a2a2;
+  font-size: 14px;
+}
+
+i {
+  color: #008080;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+footer i {
+  color: white;
+}
+
+.center i {
+  margin: 0;
+}
+
+.line hr {
+  color: #808080;
+  margin: 10px 20px;
+  max-width: 500px;
+}
+
+.second-left {
+  padding: 0 8px;
+}
+
+.star {
+  font-size: 20px;
+}
+
+.lang {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: -15px;
+}
+
+.bars {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+}
+
+.inner {
+  background-color: #008080;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+#ninety {
+  width: 90%;
+}
+
+#eighty {
+  width: 80%;
+}
+
+#seventy-five {
+  width: 75%;
+}
+
+#fifty {
+  width: 50%;
+}
+
+.below {
+  background-color: #008080;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+#cent {
+  width: 100%;
+}
+
+#half {
+  width: 50%;
+}
+
+#majors {
+  width: 20%;
+}
+
+.right {
+  margin: 26px -10px 10px 5px;
+  padding: 3px 16px;
+}
+
+.right-top {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px 4px #53505075;
+  margin-bottom: 2%;
+}
+
+.right-bottom {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px 4px #53505075;
+}
+
+.how {
+  margin: 0 30px;
+  padding: 1px;
+  color: #808080;
+  text-align: left;
+}
+
+.how h6 {
+  color: #008080;
+  font-size: 14px;
+}
+
+.exp {
+  margin: 2px 5px;
+  color: #808080;
+}
+
+.center {
+  text-align: center;
+  padding: 8px;
+}
+
+.exp i {
+  font-size: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.how p {
+  color: #000;
+}
+
+.how h4 {
+  color: #808080;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+span {
+  color: #fff;
+  background-color: #008080;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  color: white;
+  background-color: teal;
+  width: 98.9%;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+    max-height: 1600px;
+    margin: 10px 0;
+  }
+
+  .right {
+    width: 100%;
+    margin: 10px 0;
+    padding: 3px 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 100%;
+  }
+
+  footer {
+    width: 96%;
+  }
+}
