@@ -26,6 +26,7 @@ body {
   margin: 26px 5px 26px 28px;
   background-color: #fff;
   max-height: 1100px;
+  box-shadow: 3px 3px 5px 4px #53505075;
 }
 
 .avatar {
@@ -131,7 +132,7 @@ footer i {
 
 .right {
   width: 60%;
-  margin: 26px 5px 10px 5px;
+  margin: 26px 5px 10px;
   padding: 3px 16px;
 }
 
@@ -227,5 +228,3 @@ footer {
     width: 96%;
   }
 }
-
-outline: 3px solid red;
