@@ -14,7 +14,7 @@ body {
   position: relative;
   display: flex;
   padding-right: 10px;
-  min-height: 900px;
+  min-height: 900;
 }
 
 .left-column img {
@@ -25,7 +25,7 @@ body {
   width: 35%;
   margin: 26px 5px 26px 28px;
   background-color: #fff;
-  max-height: 1100px;
+  max-height: 1120px;
   box-shadow: 3px 3px 5px 4px #53505075;
 }
 
@@ -63,10 +63,9 @@ footer i {
   margin: 0;
 }
 
-.line hr {
-  color: #808080;
-  margin: 10px 20px;
-  max-width: 500px;
+hr {
+  width: 92%;
+  opacity: 0.3;
 }
 
 .second-left {
@@ -132,8 +131,9 @@ footer i {
 
 .right {
   width: 60%;
-  margin: 26px 5px 10px;
+  margin: 26px 5px 2px;
   padding: 3px 16px;
+  max-height: 1400px;
 }
 
 .right-top {
@@ -152,11 +152,12 @@ footer i {
   padding: 1px;
   color: #808080;
   text-align: left;
+  outline: 3px solid red;
 }
 
 .how h6 {
   color: #008080;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .exp {
@@ -182,13 +183,13 @@ footer i {
 .how h4 {
   color: #808080;
   font-size: 16px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 span {
   color: #fff;
   background-color: #008080;
-  font-size: 15px;
+  font-size: 10px;
   border-radius: 5px;
   padding: 10px;
 }
