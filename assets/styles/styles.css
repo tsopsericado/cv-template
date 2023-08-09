@@ -152,7 +152,6 @@ hr {
   padding: 1px;
   color: #808080;
   text-align: left;
-  outline: 3px solid red;
 }
 
 .how h6 {
@@ -183,7 +182,6 @@ hr {
 .how h4 {
   color: #808080;
   font-size: 16px;
-  /* padding: 0 10px; */
 }
 
 span {
