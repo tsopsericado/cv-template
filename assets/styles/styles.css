@@ -25,7 +25,6 @@ body {
   width: 37%;
   margin: 26px 5px 26px 28px;
   background-color: #fff;
-  /* max-height: 1120px; */
   height: 1%;
   box-shadow: 3px 3px 5px 4px #53505075;
 }
@@ -43,6 +42,10 @@ body {
 
 .contact {
   margin: 30px 20px;
+}
+
+p {
+  font-size: 17px;
 }
 
 .contact p {
@@ -204,10 +207,6 @@ footer {
   color: white;
   background-color: teal;
   width: 98.9%;
-}
-
-p {
-  font-size: 17px;
 }
 
 @media only screen and (max-width: 480px) {
