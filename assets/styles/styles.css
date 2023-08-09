@@ -22,10 +22,11 @@ body {
 }
 
 .left {
-  width: 35%;
+  width: 37%;
   margin: 26px 5px 26px 28px;
   background-color: #fff;
-  max-height: 1120px;
+  /* max-height: 1120px; */
+  height: 1%;
   box-shadow: 3px 3px 5px 4px #53505075;
 }
 
@@ -69,7 +70,8 @@ hr {
 }
 
 .second-left {
-  padding: 10px 8px;
+  padding: 5px 8px;
+
 }
 
 .star {
@@ -82,9 +84,14 @@ hr {
   margin-bottom: -15px;
 }
 
+.language{
+  padding: 10px 0;
+}
+
 .bars {
   background-color: #d3d3d3;
   border-radius: 15px;
+  font-size: smaller;
 }
 
 .inner {
@@ -127,6 +134,7 @@ hr {
 
 #majors {
   width: 20%;
+  margin-bottom: 15px;
 }
 
 .right {
@@ -149,9 +157,10 @@ hr {
 
 .how {
   margin: 0 25px;
-  padding: 1px;
+  padding: 1px; 
   color: #808080;
   text-align: left;
+  justify-content: start;
 }
 
 .how h6 {
@@ -171,8 +180,8 @@ hr {
 
 .exp i {
   font-size: 35px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .how p {
@@ -196,6 +205,10 @@ footer {
   color: white;
   background-color: teal;
   width: 98.9%;
+}
+
+p{
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -226,4 +239,4 @@ footer {
   footer {
     width: 96%;
   }
-}
+} 
