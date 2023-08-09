@@ -71,7 +71,6 @@ hr {
 
 .second-left {
   padding: 5px 8px;
-
 }
 
 .star {
@@ -84,7 +83,7 @@ hr {
   margin-bottom: -15px;
 }
 
-.language{
+.language {
   padding: 10px 0;
 }
 
@@ -157,7 +156,7 @@ hr {
 
 .how {
   margin: 0 25px;
-  padding: 1px; 
+  padding: 1px;
   color: #808080;
   text-align: left;
   justify-content: start;
@@ -207,7 +206,7 @@ footer {
   width: 98.9%;
 }
 
-p{
+p {
   font-size: 17px;
 }
 
@@ -239,4 +238,4 @@ p{
   footer {
     width: 96%;
   }
-} 
+}
